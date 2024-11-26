@@ -1,0 +1,136 @@
+$c-004675: #004675;
+$c-14528D: #14528D;
+$c-002f4f: #002F4F;
+$c-ffffff: #FFFFFF;
+$c-00907C: #00907C;
+$c-00443A: #00443A;
+$c-C3001B: #C3001B;
+$c-900014: #900014;
+$c-F9F9F9: #F9F9F9;
+$c-EAEAEA: #EAEAEA;
+$c-ADADAD: #ADADAD;
+$c-616161: #616161;
+$c-292929: #292929;
+
+$c-FFEC5F: #FFEC5F;
+
+.c-004675 {
+    color: $c-004675;
+}
+.bg-004675 {
+    background-color: $c-004675;
+}
+
+.c-14528D {
+    color: $c-14528D;
+}
+.bg-14528D {
+    background-color: $c-14528D;
+}
+
+.c-002f4f {
+    color: $c-002f4f;
+}
+.bg-002f4f {
+    background-color: $c-002f4f;
+}
+
+.c-ffffff {
+    color: $c-ffffff;
+}
+.bg-ffffff {
+    background-color: $c-ffffff;
+}
+
+.c-00907C {
+    color: $c-00907C;
+}
+.bg-00907C {
+    background-color: $c-00907C;
+}
+
+.c-00443A {
+    color: $c-00443A;
+}
+.bg-00443A {
+    background-color: $c-00443A;
+}
+
+.c-C3001B {
+    color: $c-C3001B;
+}
+.bg-C3001B {
+    background-color: $c-C3001B;
+}
+
+.c-900014 {
+    color: $c-900014;
+}
+.bg-900014 {
+    background-color: $c-900014;
+}
+
+.c-F9F9F9 {
+    color: $c-F9F9F9;
+}
+.bg-F9F9F9 {
+    background-color: $c-F9F9F9;
+}
+
+
+.c-EAEAEA {
+    color: $c-EAEAEA;
+}
+.bg-EAEAEA {
+    background-color: $c-EAEAEA;
+}
+
+.c-ADADAD {
+    color: $c-ADADAD;
+}
+.bg-ADADAD {
+    background-color: $c-ADADAD;
+}
+
+.c-616161 {
+    color: $c-616161;
+}
+.bg-616161 {
+    background-color: $c-616161;
+}
+
+.c-292929 {
+    color: $c-292929;
+}
+.bg-292929 {
+    background-color: $c-292929;
+}
+
+.c-FFEC5F {
+    color: $c-FFEC5F;
+}
+.bg-FFEC5F {
+    background-color: $c-FFEC5F;
+}
+
+.gradient-rofina-90 {
+background: $c-14528D;
+background: -moz-linear-gradient(90deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+background: -webkit-linear-gradient(90deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+background: linear-gradient(90deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14528d",endColorstr="#00907c",GradientType=1);
+}
+
+.gradient-rofina-180 {
+    background: $c-14528D;
+    background: -moz-linear-gradient(180deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+    background: -webkit-linear-gradient(180deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+    background: linear-gradient(180deg, $c-14528D 0%, $c-00907C 70%, $c-00907C 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14528d",endColorstr="#00907c",GradientType=1);
+}
+
+.gradient-rofina-text {
+    background-image: linear-gradient(90deg, $c-14528D, $c-00907C);
+    background-clip: text;
+    color: transparent;
+  }

@@ -1,0 +1,14 @@
+.product_list_container .list-item .footer {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea los botones a la derecha */
+    align-items: center;
+    padding-top: 10px;
+    /* Opcional: agrega un poco de espacio superior */
+}
+
+.product_list_container .list-item .footer .btn,
+.product_list_container .list-item .footer .btnShop {
+    margin-left: 10px;
+    /* Espacio entre los botones */
+}

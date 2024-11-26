@@ -1,0 +1,12 @@
+/* customStyles.css */
+.custom-multiselect .p-multiselect {
+    width: 100% !important; /* Ajusta el ancho del contenedor principal */
+  }
+  
+  .custom-multiselect .p-multiselect-label {
+    width: 100% !important; /* Ajusta el ancho del campo de selección */
+  }
+  
+  .custom-multiselect .p-multiselect-panel {
+    width: auto !important; /* Ajusta el ancho del panel desplegable */
+  }

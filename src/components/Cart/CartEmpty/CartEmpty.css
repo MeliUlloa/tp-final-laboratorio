@@ -1,0 +1,38 @@
+.cart-empty-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.cart-empty-container .header h6 {
+    font-size: 18px;
+    color: #616161;
+    margin-bottom: 10px;
+}
+
+.cart-empty-container .body p {
+    font-size: 16px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+
+.cart-empty-container .footer .buscar-muestras-btn {
+    background-color: #28a745;
+    /* Puedes ajustar el color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cart-empty-container .footer .buscar-muestras-btn:hover {
+    background-color: #218838;
+    /* Un color más oscuro al hacer hover */
+}

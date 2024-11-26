@@ -1,0 +1,89 @@
+@import 'colors';
+@keyframes rofinaInicio {
+    from {opacity: 0.5;
+        transform: translateY(5%);
+    }
+    to {opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes rofinaForm {
+    from {
+        transform: translateY(10%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes rofinaBtn {
+    from {
+        transform: translateY(0rem);
+    }
+    to {
+        transform: translateY(-0.3rem);
+    }
+}
+@keyframes rofinaModal {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes rofinaModalRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes ToastTopCenter {
+    from {
+        transform: translate(-50% , -100%);
+    }
+    to {
+        transform: translate(-50% , 0%);
+    }
+}
+@keyframes ToastTopRight {
+    0% {
+        transform: translate(100% , 0%);
+    }
+    20% {
+        transform: translate(0% , 0%);
+    }
+    
+}
+@keyframes ToastProgressBar {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+@keyframes rofinaCard {
+    from {
+        transform: translateY(0rem);
+    }
+    to {
+        transform: translateY(-0.3rem);
+    }
+}
+@keyframes rofinaTag {
+    from {
+        transform: translateY(0rem);
+        background-color: $c-ffffff;
+    }
+    to {
+        transform: translateY(-0.3rem);
+        background-color: $c-EAEAEA;
+    }
+}

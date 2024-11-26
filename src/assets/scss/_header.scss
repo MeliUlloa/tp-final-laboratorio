@@ -1,0 +1,80 @@
+@import 'colors';
+@import 'size';
+
+header {
+    &.header {
+        width: 100%;
+        .Rofina-header {
+            border-bottom: 1px solid $c-EAEAEA;
+        }
+        .Lab-header {
+            background-color: $c-FFEC5F;
+            z-index: 2;
+            .Lab__logo {
+                background-color: $c-ffffff;
+                border-radius: $size-0-5;
+                padding: $size-0-5;
+                border: 1px solid $c-EAEAEA;
+                -webkit-box-shadow: 4px 4px 5px 0px rgba(113,113,113,0.2);
+                -moz-box-shadow: 4px 4px 5px 0px rgba(113,113,113,0.2);
+                box-shadow: 4px 4px 5px 0px rgba(113,113,113,0.2);
+            }
+        }
+        .logo {
+            height: 3rem;
+            flex: 1 1;
+        }
+        .my-nav {
+            flex-direction: row-reverse;
+            #btnMenuInicio {
+                display: none;
+            }
+            .btn-group {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+header {
+    &.header {
+        .Lab-header {
+            flex-direction: column;
+            gap: $size-1;
+            align-items: center;
+            padding: $size-1;
+        }
+        .logo {
+            height: 2rem;
+        }
+        .my-nav {
+            position: relative;
+            align-items: flex-end;
+            flex-direction: column;
+            #btnMenuInicio {
+                display: flex;
+            }
+            .btn-group {
+                position: absolute;
+                top: 4.125rem;
+                width: calc(100vw - 6rem);
+                padding: 1rem;
+                background-color: $c-ffffff;
+                border: 1px solid $c-EAEAEA;
+                border-radius: 0rem 0rem 2rem 2rem;
+                z-index: 4;
+                flex-direction: column;
+                display: none;
+                &.active {
+                    display: flex;
+                }
+                .dropMenu {
+                    position: initial;
+                }
+            }
+        }
+    }
+}
+}

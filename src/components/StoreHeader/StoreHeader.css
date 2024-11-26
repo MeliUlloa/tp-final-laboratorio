@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  /* Reduce el padding para hacer el header más angosto */
+
+}
+
+.Lab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  /* Reduce el padding para un header más compacto */
+  border-radius: 0.25rem;
+  /* Mantén el borde redondeado */
+}
+
+.Lab__logo img {
+  height: 120px;
+  /* Ajusta la altura del logo para que sea más pequeño */
+  width: auto;
+}
+
+.flex_info {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  /* Reduce el espacio entre los elementos */
+}
+
+.btn {
+  padding: 0.25rem 0.5rem;
+  /* Reduce el padding de los botones */
+  font-size: 14px;
+  /* Reduce el tamaño de la fuente */
+}
+
+.quantity {
+  font-size: 12px;
+  /* Reduce el tamaño de la fuente de la cantidad */
+  padding: 0 0.25rem;
+  /* Ajusta el padding para un mejor ajuste */
+}
+
+.icon__shopping {
+  font-size: 16px;
+  /* Ajusta el tamaño del ícono si es necesario */
+}

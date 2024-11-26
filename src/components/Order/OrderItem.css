@@ -1,0 +1,79 @@
+.pedido {
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 15px 0;
+    text-decoration: none;
+    /* Quita la subrayado del link */
+    color: inherit;
+    /* Mantiene el color de texto original */
+}
+
+.pedido:hover {
+    background-color: #f9f9f9;
+    /* Fondo gris claro al pasar el ratón */
+    text-decoration: none;
+    /* Asegura que no se subraye al hacer hover */
+    color: inherit;
+    /* Mantiene el color de texto original en hover */
+}
+
+.pedido-cell {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.state-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid #004675;
+    /* Color azul oscuro */
+    color: #004675;
+    font-size: 14px;
+    text-align: center;
+    background-color: #ffffff;
+    /* Fondo blanco */
+}
+
+.pedido-cell p {
+    margin-top: 5px;
+}
+
+/* Ajustes para los elementos del formulario */
+ul.checkboxes {
+    max-height: 300px; /* Asegura que la lista tenga una altura máxima */
+    overflow-y: auto;  /* Permite el scroll cuando la lista es larga */
+}
+
+ul.checkboxes li {
+    padding: 8px 0;
+    border-bottom: 1px solid #EAEAEA; /* Añade una separación entre los elementos */
+}
+
+ul.checkboxes li:last-child {
+    border-bottom: none; /* Remueve la línea en el último elemento */
+}
+
+.label .check {
+    /* Ajusta el estilo de los checkboxes si es necesario */
+}
+
+.btn-apply {
+    background-color: #0a74da; /* Color de fondo azul oscuro */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Ajustes para los botones de Borrar y Aplicar */
+.btn.white {
+    border: 1px solid #c0c0c0; /* Añadir borde suave */
+    color: #616161;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.btn.gradient {
+    background: linear-gradient(90deg, #0a74da 0%, #1a88e1 100%); /* Degradado para el botón aplicar */
+    border-radius: 4px;
+}

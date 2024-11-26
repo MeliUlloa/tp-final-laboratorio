@@ -1,0 +1,31 @@
+/* ProfessionalInfo.css */
+
+/* Clase principal que encapsula todos los estilos */
+.professional-info ul.d-flex {
+    list-style-type: none;
+    /* Elimina los bullets */
+    padding: 0;
+    /* Elimina el padding predeterminado del ul */
+}
+
+.professional-info ul.d-flex li {
+    padding: 0.5rem 1rem;
+    /* Ajusta el padding según sea necesario */
+    background-color: #EAEAEA;
+    /* Color de fondo */
+    border-radius: 0.25rem;
+    /* Bordes redondeados */
+    margin: 0.25rem;
+    /* Espacio entre los elementos de la lista */
+}
+
+.professional-info ul.d-flex li p {
+    margin: 0;
+    /* Elimina el margin de los párrafos */
+    font-size: 1rem;
+    /* Tamaño de fuente */
+    color: #616161;
+    /* Color de texto */
+    font-family: 'Inter', sans-serif;
+    /* Fuente */
+}

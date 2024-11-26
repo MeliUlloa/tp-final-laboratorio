@@ -1,0 +1,220 @@
+.c-004675 {
+  color: #004675;
+}
+
+.bg-004675 {
+  background-color: #004675;
+}
+
+.c-14528D {
+  color: #14528D;
+}
+
+.bg-14528D {
+  background-color: #14528D;
+}
+
+.c-002f4f {
+  color: #002F4F;
+}
+
+.bg-002f4f {
+  background-color: #002F4F;
+}
+
+.c-ffffff {
+  color: #FFFFFF;
+}
+
+.bg-ffffff {
+  background-color: #FFFFFF;
+}
+
+.c-00907C {
+  color: #00907C;
+}
+
+.bg-00907C {
+  background-color: #00907C;
+}
+
+.c-00443A {
+  color: #00443A;
+}
+
+.bg-00443A {
+  background-color: #00443A;
+}
+
+.c-C3001B {
+  color: #C3001B;
+}
+
+.bg-C3001B {
+  background-color: #C3001B;
+}
+
+.c-900014 {
+  color: #900014;
+}
+
+.bg-900014 {
+  background-color: #900014;
+}
+
+.c-F9F9F9 {
+  color: #F9F9F9;
+}
+
+.bg-F9F9F9 {
+  background-color: #F9F9F9;
+}
+
+.c-EAEAEA {
+  color: #EAEAEA;
+}
+
+.bg-EAEAEA {
+  background-color: #EAEAEA;
+}
+
+.c-ADADAD {
+  color: #ADADAD;
+}
+
+.bg-ADADAD {
+  background-color: #ADADAD;
+}
+
+.c-616161 {
+  color: #616161;
+}
+
+.bg-616161 {
+  background-color: #616161;
+}
+
+.c-292929 {
+  color: #292929;
+}
+
+.bg-292929 {
+  background-color: #292929;
+}
+
+.c-FFEC5F {
+  color: #FFEC5F;
+}
+
+.bg-FFEC5F {
+  background-color: #FFEC5F;
+}
+
+.gradient-rofina-90 {
+  background: #14528D;
+  background: -moz-linear-gradient(90deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  background: -webkit-linear-gradient(90deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  background: linear-gradient(90deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14528d",endColorstr="#00907c",GradientType=1);
+}
+
+.gradient-rofina-180 {
+  background: #14528D;
+  background: -moz-linear-gradient(180deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  background: -webkit-linear-gradient(180deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  background: linear-gradient(180deg, #14528D 0%, #00907C 70%, #00907C 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14528d",endColorstr="#00907c",GradientType=1);
+}
+
+.gradient-rofina-text {
+  background-image: linear-gradient(90deg, #14528D, #00907C);
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes rofinaInicio {
+  from {
+    opacity: 0.5;
+    transform: translateY(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes rofinaForm {
+  from {
+    transform: translateY(10%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes rofinaBtn {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-0.3rem);
+  }
+}
+@keyframes rofinaModal {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes rofinaModalRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes ToastTopCenter {
+  from {
+    transform: translate(-50%, -100%);
+  }
+  to {
+    transform: translate(-50%, 0%);
+  }
+}
+@keyframes ToastTopRight {
+  0% {
+    transform: translate(100%, 0%);
+  }
+  20% {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes ToastProgressBar {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+@keyframes rofinaCard {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-0.3rem);
+  }
+}
+@keyframes rofinaTag {
+  from {
+    transform: translateY(0rem);
+    background-color: #FFFFFF;
+  }
+  to {
+    transform: translateY(-0.3rem);
+    background-color: #EAEAEA;
+  }
+}
+
+/*# sourceMappingURL=animations.css.map */

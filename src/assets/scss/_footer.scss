@@ -1,0 +1,32 @@
+.icono_redes {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    &:hover {
+        animation-name: rofinaBtn;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+    }
+    &.icono__instagram {
+        background-image: url("../icons/instagram.svg");
+        background-repeat: no-repeat;
+        background-size: 2rem 2rem;
+        background-position: center;
+    }
+    &.icono__facebook {
+        background-image: url("../icons/facebook.svg");
+        background-repeat: no-repeat;
+        background-size: 2rem 2rem;
+        background-position: center;
+    }
+    &.icono__linkedin {
+        background-image: url("../icons/linkedin.svg");
+        background-repeat: no-repeat;
+        background-size: 2rem 2rem;
+        background-position: center;
+    }
+}
+.dir {
+    flex: 1 1;
+}
